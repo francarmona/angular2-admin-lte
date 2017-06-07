@@ -4,7 +4,7 @@ import { AdminComponent, AdminRoutingModule } from '@app/admin';
 import { ChartsModule } from 'ng2-charts';
 import { LineChartComponent } from '@app/widgets/charts/line-chart/line-chart.component';
 import { RadarChartComponent } from '@app/widgets/charts/radar-chart/radar-chart.component';
-import { HeaderComponent, SidebarComponent, NavbarMenuComponent, SidebarMenuComponent } from '@app/pages/partials';
+import { HeaderComponent, SidebarComponent, NavbarMenuComponent, SidebarMenuComponent, ControlSidebarComponent } from '@app/pages/partials';
 
 @NgModule({
   imports: [
@@ -20,7 +20,8 @@ import { HeaderComponent, SidebarComponent, NavbarMenuComponent, SidebarMenuComp
     HeaderComponent,
     SidebarComponent,
     SidebarMenuComponent,
-    NavbarMenuComponent
+    NavbarMenuComponent,
+    ControlSidebarComponent
   ]
 })
 export class AdminModule { }
